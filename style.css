@@ -16,14 +16,23 @@ a {
     /* border: 2px solid black */
 }
 
-.nav-container {
+#navContainer {
     position: sticky;
     top: 0;
     height: 70px;
     display: flex;
     justify-content: center;
-    background-color: #FFC017;
     border-bottom: 1px solid black;
+}
+
+.nav-normal {
+    background-color: #FFC017;
+    transition: .5s;
+}
+
+.nav-scrolled {
+    background-color: white;
+    transition: .5s;
 }
 
 .nav-container-inner {
@@ -78,13 +87,20 @@ a {
     margin-right: 15px;
 }
 
-.nav-container button {
+.normal {
     padding: 10px;
     border-radius: 50px;
     border: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.842);
+    transition: .5s;
 }
+
+.scrolled {
+    background-color: green;
+    transition: .5s;
+}
+
 
 .nav-container button:hover {
 
