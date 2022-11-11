@@ -128,13 +128,12 @@ a {
     align-items: center;
 }
 
-.start-container-content {
-    width: 50%;
-}
+.start-container-content {}
 
 .start-container h2 {
+    white-space: nowrap;
     font-family: 'Playfair Display', serif;
-    font-size: xxx-large;
+    font-size: 90px;
     margin: 0;
 }
 
@@ -316,6 +315,7 @@ a {
     top: 70px;
     width: 300px;
     height: 200px;
+    margin-left: 20px;
 }
 
 .sidebar-container h3 {
