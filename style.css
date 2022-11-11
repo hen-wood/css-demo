@@ -102,7 +102,7 @@ a {
 }
 
 
-.nav-container button:hover {
+.normal:hover {
 
     background-color: black;
     cursor: pointer;
