@@ -157,6 +157,7 @@ a {
 .trending-top {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .trending-logo-container {
